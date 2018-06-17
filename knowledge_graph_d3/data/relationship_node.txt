@@ -1,0 +1,6 @@
+:ID :SOURCE_USER_ID target_user_id  trust_value interaction_num type
+1   1   2   0.8 5   relation
+2   1   3   0.7 4   relation
+3   1   4   0.9 3   relation
+4   1   5   0.5 8   relation
+5   1   6   0.76    6   relation

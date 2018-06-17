@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container" id="main_2"></div>
+<script type='text/javascript' src='https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js'></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var data;
+        alert("hello before")
+        var  path = '/Users/chengxianglong/PycharmProjects/untitled3/';
+        var online_path = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/25240/us-states.json";
+        alert("test.json")
+        $.getJSON("./data.json", "", function (json) {
+            alert("success");
+            data = json;
+        })
+            .done(function () {
+                alert("done")
+            })
+            .fail(function () {
+                alert("fail")
+            })
+            .always(function () {
+                alert("always")
+            });
+    });
+ </script>
+</body>
+</html>

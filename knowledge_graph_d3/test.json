@@ -1,0 +1,102 @@
+{"nodes": [{
+			"name": "中国",
+			"group": 1,
+			"index": 0
+		},
+		{
+			"name": "内蒙古",
+			"group": 2,
+			"index": 1
+		},
+		{
+			"name": "猫咪",
+			"group": 3,
+			"index": 2
+		},
+		{
+			"name": "四川",
+			"group": 2,
+			"index": 3
+		},
+		{
+			"name": "棕熊",
+			"group": 2,
+			"index": 4
+		},
+		{
+			"name": "臭豆腐",
+			"group": 3,
+			"index": 5
+		},
+		{
+			"name": "小猪猪",
+			"group": 2,
+			"index": 6
+		},
+		{
+			"name": "湖南",
+			"group": 2,
+			"index": 7
+		},
+		{
+			"name": "大熊猫",
+			"group": 3,
+			"index": 8
+		},
+		{
+			"name": "北京",
+			"group": 2,
+			"index": 9
+		},
+		{
+			"name": "雾霾",
+			"group": 3,
+			"index": 10
+		}
+	],
+	"links": [{
+			"source": 0,
+			"target": 1
+		},
+		{
+			"source": 1,
+			"target": 2
+		},
+		{
+			"source": 0,
+			"target": 3
+		},
+		{
+			"source": 3,
+			"target": 8
+		},
+		{
+			"source": 0,
+			"target": 4
+		},
+		{
+			"source": 0,
+			"target": 6
+		},
+		{
+			"source": 0,
+			"target": 7
+		},
+		{
+			"source": 7,
+			"target": 5
+		},
+		{
+			"source": 0,
+			"target": 9
+		},
+		{
+			"source": 9,
+			"target": 10
+		},
+		{
+			"source": 4,
+			"target": 5
+		}
+	]
+}
